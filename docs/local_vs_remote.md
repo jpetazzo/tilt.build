@@ -31,7 +31,8 @@ Many teams build and run all services in a local cluster.
 
 ### Pros
 
-- A local Kubernetes cluster is easier to setup than ever, 
+- A local 
+netes cluster is easier to setup than ever, 
   see our guide to [Choosing a Cluster](choosing_clusters.html).
 
 - If you mess up, you can reset it.
@@ -93,7 +94,7 @@ there are some enhancements we often see teams tackle.
 ## Remote Builds
 
 Instead of building images locally, you can
-build images in Kuberentes with [Kaniko](https://github.com/GoogleContainerTools/kaniko)
+build images in Kubernetes with [Kaniko](https://github.com/GoogleContainerTools/kaniko)
 or [Docker BuildX](https://medium.com/nttlabs/buildx-kubernetes-ad0fe59b0c64).
 
 Tilt's `custom_build` is flexible enough to support this:
